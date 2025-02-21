@@ -1,0 +1,132 @@
+.portmain{
+    font-family: "Poppins";
+   
+    width: 80%;
+    height: 100vh;
+   font-family: Poppins;
+    background-color: #1e272e;
+    
+ margin: 20px auto;
+
+}
+.portcontent{
+    width: 80%;
+   margin:20px  auto;
+    font-size: 19px;
+    line-height: 28px;
+    
+}
+.porthead{
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    color: #82ccdd;
+    text-decoration: underline double #f6b93b 1px;
+    text-underline-offset: 6px;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+}
+.boxcollection{
+padding: 20px;;
+    width:94%;
+    /* background-color: #f6b93b; */
+   margin:auto;
+}
+.proimg{
+    height: 190px;
+    width: 250px;
+    
+}
+.portbox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.proname{
+    width:90%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-block:7px;
+/* margin-left: 30px; */
+}
+.portblock:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1024px) {
+    .portmain{
+        height: 175vh;
+    }
+   .boxcollection{
+    width: 80%;
+   }
+    
+}
+@media screen and (max-width:768px) {
+    .portmain{
+        height: 190vh;
+    }
+    .boxcollection{
+        width: 95%;
+       }
+}
+@media screen and (max-width:425px) {
+    .portmain{
+        height: 270vh;
+    }
+    .boxcollection{
+        width: 100%;
+        margin:auto;
+    }
+    .portbox{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .proname{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:375px)
+{
+    .portmain{
+        height: 285vh;
+    }
+    .boxcollection{
+        width: 100%;
+    }
+    .portblock{
+        margin-top: 20px;
+        width: 99%;
+    }
+   
+    
+}
+@media screen and (max-width:320px) {
+    .portmain{
+        height: 280vh;
+    }
+    .proimg{
+        height: 200px;
+        width: 210px;
+        display: block;
+    }
+    .porthead{
+      /* background-color: #f05907; */
+        width: 105%;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        margin-left: -5px;
+    }
+    .proname{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 19px;
+    }
+} 

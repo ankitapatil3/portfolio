@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,7080vh0;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+.introa{
+    font-family: "Poppins";
+   
+    width: 82%;
+    height: 70vh;
+   font-family: Poppins;
+    background-color: #1e272e;
+    
+ margin: 20px auto;
+
+}
+.abouthead{
+    text-align: center;
+    margin-bottom:10px;
+   
+}
+.abpost{
+    text-align: justify;
+    width: 88%;
+margin:10px  auto;
+font-size: 18px;
+line-height: 23px;
+}
+
+.abimg{
+    display: block;
+    width: 125px;
+    height: 120px;
+  
+}
+.abblock{
+    width: 80%;
+    margin:20px  auto;
+    display:flex;
+    justify-content: space-around;
+    background-color:#2c3e50;
+    padding: 10px;
+}
+.abblockhead{
+    font-size: 25px;
+    font-weight: bold;
+    margin-block: 7px;
+    margin-left: 20px;
+}
+.abinfo{
+    font-size: 20px;
+    margin-left : 20px;
+}
+
+@media screen and (max-width:1440px) {
+    .introa{
+        height: 80vh;
+    }
+    .abpost{
+    font-size: 22px;
+    line-height: 30px;
+    }
+    .abinfo{
+        font-size: 16px;
+        margin-left : 20px;
+        line-height: 29px;
+  
+    }
+    .abimg{
+        width: 125px;
+        height: 120px;
+       
+    }
+    .abblock{
+        padding: 5px;
+    }
+    .abblockhead{
+        font-size: 21px;
+        margin-block: 5px;
+    }
+    /* .abpost{
+        font-size: 19px;
+line-height: 23px;
+    } */
+}
+
+@media screen and (max-width:1024px) {
+    .introa{
+        height: 125vh;
+    }
+    
+    .abinfo{
+        font-size: 16px;
+        margin-left : 20px;
+        line-height: 29px;
+  
+    }
+   
+    
+    .abblockhead{
+        font-size: 21px;
+        margin-block: 5px;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .introa{
+        height: 95vh;;
+    }
+    .abpost{
+        font-size: 18px;
+line-height: 23px;
+    }
+    .abblock{
+        width: 83%;
+        padding: 5px;
+    }
+    .abblockhead{
+        font-size: 18px;
+        margin-block: 5px;
+    }
+    .abinfo{
+        font-size: 17px;
+        height: 64px;
+        overflow: hidden;
+    }
+    .abimg{
+        width: 125px;
+        height: 90px;
+      
+    }
+}
+
+@media screen and (max-width:425px) {
+    .abimg{
+        width: 90px;
+        height: 150px;
+    }
+    .abinfo{
+        height: 120px;
+    }
+    .introa{
+        height: 145vh;
+    }
+    .abblock{
+        padding:7px;
+    }
+}

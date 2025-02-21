@@ -1,0 +1,119 @@
+#skill{
+   
+    /* position: relative; */
+    width: 80%;
+    height: 65vh;
+
+    background-color: #1e272e;
+    /* height: 90vh; */
+ margin: 20px auto;
+
+
+}
+
+#skill2{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    padding:10px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    /* background-color: rgb(241, 245, 245); */
+    border: 2px solid white;
+    padding:10px;
+    box-shadow: 2px 2px 3px snow;
+    
+}
+.img:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 3px  4px 4px 6px rgb(110, 108, 107) ;
+}
+.skillname{
+    margin-left: 30px;
+}
+@media screen and (max-width:1024px) {
+    #skill2{
+        width: 90%;
+    }
+    .skillhead{
+        word-spacing: 5px;
+    }
+    .img{
+        height: 180px;
+        width: 140px;
+        
+        /* background-color: rgb(241, 245, 245); */
+        border: 2px solid white;
+        padding:10px;
+    }
+    .skillname{
+        margin-left: 10px;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:768px) {
+    #skill2{
+        width: 95%;
+    }
+    .img{
+        height: 190px;
+        width: 120px;
+       
+        /* background-color: rgb(241, 245, 245); */
+        border: 2px solid white;
+        padding:10px;
+    }
+    .skillname{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:425px) {
+    #skill{
+        height: 160vh;
+    }
+    #skill2{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    #skill{
+        height: 140vh;
+    }
+    #skill2{
+        width: 80%;
+        /* background-color: aqua; */
+    }
+    .img{
+        height: 150px;
+        width: 100px;
+       
+        padding:10px;
+    }
+    .skillname{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:320px) {
+    #skill{
+        height: 145vh;
+    }
+    #skill2{
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    .img{
+        height: 150px;
+        width: 100px;
+       
+        padding:10px;
+    }
+}
